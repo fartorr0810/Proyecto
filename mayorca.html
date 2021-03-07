@@ -60,6 +60,7 @@
                         <div class="collapse show" id="getting-started-collapse">
                             <ul class="list-unstyled fw-normal pb-1 small">
                                 <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="d-inline-flex align-items-center rounded">Tenerife,España</a></li>
+                                <li><a href="">Ibiza,España</a></li>
                                 <li><a href="https://getbootstrap.com/docs/5.0/getting-started/browsers-devices/" class="d-inline-flex align-items-center rounded">Mayorca,España</a></li>
                                 <li><a href="https://getbootstrap.com/docs/5.0/getting-started/javascript/" class="d-inline-flex align-items-center rounded">Barcelona,España</a></li>
                                 <li><a href="https://getbootstrap.com/docs/5.0/getting-started/build-tools/" class="d-inline-flex align-items-center rounded">Roma,Italia</a></li>
@@ -92,23 +93,116 @@
                 </h2>
                 <p>Podras reservar vuelos con<strong> precios adaptados a ti</strong> para que todos puedan viajar</p>
                 <p>
-                    <h3>Las mejores ofertas de Vuelo + Hotel</h3> <br> Reserva juntos tu vuelo y tu hotel en nuestro buscador de viajes y te proporcionaremos las mejores ofertas del mercado.Consigue ya tu vuelo + hotel en Rumbo y ¡ahorra!<br>
-                    <h4>Vuelo + Hotel a Tenerife</h4><img src="assets/img/atardecer-auditorio-santa-cruz-tenerife-balearia-740x480.jpg" width="500px" height="300px"><br> Tenerife nunca falla: playas, golf, relax, buen tiempo y todas las opciones que te imagines
-                    para unas vacaciones o una escapada en cualquier momento del año. Si además eres de los que te gusta que te den todo hecho, no olvides incluir en tu selección de hotel las comidas incluidas. <br>
                     <h4>Vuelo + Hotel a Mallorca</h4><img src="assets/img/Cala-palma-Mallorca.jpg" width="500px" height="300px"> <br>Si te gusta combinar playa y cultura en tus viajes, elige Palma de Mallorca: ciudad monumental, pueblos perdidos en el interior
                     y calas recónditas sin gente. En Rumbo te lo ponemos muy fácil: utiliza nuestro buscador, aplica los filtros y elige la oferta que más te convenga.<br>
-                    <h4> Vuelo + Hotel a Barcelona</h4> <img src="assets/img/skyline6.jpg" width="500px" height="300px"><br>Barcelona es una ciudad que te ofrece tantas cosas que hacer que no sabrás por dónde empezar: las vistas desde el Tibidabo, el puerto
-                    olímpico, vista al Liceo, y mil planes más. En Rumbo encontrarás los billetes al mejor precio y cogiendo el vuelo junto con el hotel, la oferta está asegurada. Así que no lo pienses más, elige tu plan, reserva tu billete y el alojamiento
-                    que más te guste y sal volando.<br>
-                    <h4>Vuelo + Hotel a Roma</h4><br><img src="assets/img/1565723204-1548360785-Authentic2.jpg" width="500px" height="300px"><br> No esperes más para darte el capricho de visitar Roma. Lee las opiniones de los viajeros en Rumbo para ayudarte
-                    a elegir alojamiento y así ahorrarás tiempo y dinero. La ciudad eterna te espera, solo, con amigos, o pareja, ¡Roma nunca defrauda!<br> Vuelo + Hotel a las Maldivas <br>Si lo tuyo es la aventura, este es tu viaje: vacaciones exóticas
-                    en un hotel ecológico en plena naturaleza. Las islas Maldivas te dejarán con la boca abierta y la cámara de fotos sin batería. No te pierdas la puesta de sol en pleno Océano Índico. <br>
-                    <h4>Vuelo + hotel a París</h4><img src="assets/img/Torre-Eiffel-vista-panoramica-760x500.jpg" width="500px" height="300px"><br> Regálale ese viaje a París en el que llevas tiempo pensando. Es así de fácil: elige una oferta de vuelo + hotel
-                    en Rumbo y haz vuestro sueño realidad en la ciudad de la luz y el amor. Ofertas en hoteles En las agencias de viajes sabemos que cualquier fecha para viajar es buena si el destino lo merece. Y es que en Rumbo tenemos todos los destinos,
-                    así que entra y utiliza el buscador de hoteles para encontrar todas las ofertas de hoteles a precios a los que no podrás resistirte. Leer más Ofertas de vuelos Si has decidido realizar un viaje en avión, olvídate de las agencias de
-                    viaje tradicionales y utiliza el buscador de vuelos de Rumbo. Ponlo a prueba y verás que no hay destino, por lejano que sea, que se le resista, ¡y por menos precio!
                 </p>
         </main>
+
+        </div>
+        <div id="contenedor">
+            <style>
+
+            </style>
+            <h2>Formulario de alta</h2>
+
+            <form method="post" action="#">
+                <ul>
+                    <li class="izquierda">
+                        <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
+                        <div>
+                            <span class="completo">
+          <input id="nombre" name="nombre" value="" />
+          <label for="nombre">Nombre</label>
+        </span>
+
+                            <span class="completo">
+          <input id="apellido1" name="apellido1" value="" />
+          <label for="apellido1">Primer apellido</label>
+        </span>
+
+                            <span class="completo">
+          <input id="apellido2" name="apellido2" value="" />
+          <label for="apellido2">Segundo apellido</label>
+        </span>
+                        </div>
+
+                    </li>
+                    <li class="derecha">
+                        <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+
+                        <div>
+                            <span class="completo">
+          <input id="direccion" name="direccion" value="" />
+          <label for="direccion">Calle, número, piso, puerta</label>
+        </span>
+
+                            <span class="tercio">
+          <input id="codigopostal" name="codigopostal" value="" />
+          <label for="codigopostal">Código postal</label>
+        </span>
+                            <span class="dostercios">
+          <input id="municipio" name="municipio" value="" />
+          <label for="municipio">Municipio</label>
+        </span>
+
+                            <span class="tercio">
+          <select id="provincia" name="provincia">
+            <option value=""></option>
+            <option value="provincia1">Provincia 1</option>
+            <option value="provincia2">Provincia 2</option>
+            <option value="provincia3">Provincia 3</option>
+          </select>
+          <label for="provincia">Provincia</label>
+        </span>
+
+                            <span class="dostercios">
+          <select id="pais" name="pais">
+            <option value=""></option>
+            <option value="pais1">País 1</option>
+            <option value="pais2">País 2</option>
+            <option value="pais3">País 3</option>
+          </select>
+          <label for="pais">País</label>
+        </span>
+                        </div>
+
+                    </li>
+
+                    <li class="izquierda">
+                        <label class="titulo" for="email">Email</label>
+
+                        <div>
+                            <span class="completo">
+          <input id="email" name="email" value="" />
+        </span>
+                        </div>
+
+                    </li>
+
+                    <li class="derecha">
+                        <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+
+                        <div>
+                            <span class="mitad">
+          <input id="telefonofijo" name="telefonofijo" value="" />
+          <label for="telefonofijo">Fijo</label>
+        </span>
+
+                            <span class="mitad">
+          <input id="telefonomovil" name="telefonomovil" value="" />
+          <label for="telefonomovil">Móvil</label>
+        </span>
+                        </div>
+
+                    </li>
+
+                    <li class="botones">
+                        <input id="alta" type="submit" value="Darme de alta &rarr;" />
+                    </li>
+
+                </ul>
+            </form>
+
         </div>
         <footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
             <div class="container">

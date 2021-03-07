@@ -1,0 +1,134 @@
+        body {
+            background: #F5F5F5;
+            font: 13px Arial;
+        }
+        
+        h2 {
+            font: normal 24px arial, sans-serif;
+            margin: 0px;
+        }
+        
+        .izquierda {
+            clear: left;
+            float: left;
+        }
+        
+        .derecha {
+            float: right;
+            clear: right;
+        }
+        
+        #contenedor {
+            background: #FFF;
+            margin: 12px auto;
+            padding: 12px;
+            border: 1px solid silver;
+            width: auto;
+        }
+        
+        span.requerido {
+            font-weight: bold;
+            color: #C00;
+            font-size: 15px;
+        }
+        
+        ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        
+        ul li.botones {
+            border-top: 2px solid rgb(194, 194, 194);
+            float: none;
+            padding: 12px 0;
+            clear: both;
+            margin-top: 12px;
+            text-align: right;
+            width: 100%;
+        }
+        
+        ul li.botones input {
+            font-size: 17px;
+        }
+        
+        ul li {
+            margin: 6px 0;
+            padding: 6px;
+            width: 46%;
+        }
+        
+        ul li label.titulo {
+            font-weight: bold;
+        }
+        
+        ul li div span {
+            float: left;
+            padding: 4px 0;
+        }
+        
+        ul li div span.completo {
+            width: 100%;
+        }
+        
+        ul li div span.mitad {
+            width: 50%;
+        }
+        
+        ul li div span.tercio {
+            width: 33%;
+        }
+        
+        ul li div span.dostercios {
+            width: 66%;
+        }
+        
+        ul li div span label {
+            display: block;
+            font: normal 9px arial, sans-serif;
+            color: rgb(28, 27, 27);
+        }
+        
+        ul li p.ayuda {
+            display: none;
+        }
+        
+        ul li input {
+            padding: 1px;
+        }
+        
+        input#apellido1,
+        input#apellido2,
+        input#direccion,
+        input#email {
+            width: 250px;
+        }
+        
+        select#provincia {
+            width: 78px;
+        }
+        
+        select#pais {
+            width: 150px;
+        }
+        
+        input#telefonofijo,
+        input#telefonomovil {
+            width: 135px;
+        }
+        
+        input#codigopostal {
+            width: 72px;
+        }
+        
+        ul li.botones:hover {
+            background-color: snow;
+        }
+        
+        ul li:hover {
+            background-color: rgb(255, 255, 92);
+        }
+        
+        ul li input:focus {
+            border: 2px solid #ffcc00;
+        }
