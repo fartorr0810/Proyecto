@@ -59,12 +59,11 @@
                         </button>
                         <div class="collapse show" id="getting-started-collapse">
                             <ul class="list-unstyled fw-normal pb-1 small">
-                                <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="d-inline-flex align-items-center rounded">Tenerife,España</a></li>
-                                <li><a href="">Ibiza,España</a></li>
-                                <li><a href="https://getbootstrap.com/docs/5.0/getting-started/browsers-devices/" class="d-inline-flex align-items-center rounded">Mayorca,España</a></li>
-                                <li><a href="https://getbootstrap.com/docs/5.0/getting-started/javascript/" class="d-inline-flex align-items-center rounded">Barcelona,España</a></li>
-                                <li><a href="https://getbootstrap.com/docs/5.0/getting-started/build-tools/" class="d-inline-flex align-items-center rounded">Roma,Italia</a></li>
-                                <li><a href="https://getbootstrap.com/docs/5.0/getting-started/webpack/" class="d-inline-flex align-items-center rounded">Paris,Francia</a></li>
+                                <li><a href="tenerife.html" class="d-inline-flex align-items-center rounded">Tenerife,España</a></li>
+                                <li><a href="mayorca.html" class="d-inline-flex align-items-center rounded">Mayorca,España</a></li>
+                                <li><a href="barcelona.html" class="d-inline-flex align-items-center rounded">Barcelona,España</a></li>
+                                <li><a href="roma.html" class="d-inline-flex align-items-center rounded">Roma,Italia</a></li>
+                                <li><a href="paris.html" class="d-inline-flex align-items-center rounded">Paris,Francia</a></li>
                             </ul>
                         </div>
                 </ul>
@@ -96,33 +95,56 @@
                     <h4>Vuelo + Hotel a Mallorca</h4><img src="assets/img/Cala-palma-Mallorca.jpg" width="500px" height="300px"> <br>Si te gusta combinar playa y cultura en tus viajes, elige Palma de Mallorca: ciudad monumental, pueblos perdidos en el interior
                     y calas recónditas sin gente. En Rumbo te lo ponemos muy fácil: utiliza nuestro buscador, aplica los filtros y elige la oferta que más te convenga.<br>
                 </p>
+                <table class="tg" align="center">
+                    <thead>
+                        <tr>
+                            <th class="tg-0lax" colspan="3">Precios por Adulto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-0lax">Clase Baja</td>
+                            <td class="tg-0lax">Clase Media</td>
+                            <td class="tg-0lax">Clase Alta</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">300€</td>
+                            <td class="tg-0lax">380€<br></td>
+                            <td class="tg-0lax">420€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fKt61qYSxeY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </main>
 
         </div>
+
         <div id="contenedor">
             <style>
 
             </style>
             <h2>Formulario de alta</h2>
 
-            <form method="post" action="#">
+            <form method="post" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php">
                 <ul>
                     <li class="izquierda">
                         <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
                         <div>
                             <span class="completo">
+            <label for="nombre">Nombre</label>
           <input id="nombre" name="nombre" value="" />
-          <label for="nombre">Nombre</label>
+
         </span>
 
                             <span class="completo">
+                                <label for="apellido1">Primer apellido</label>
           <input id="apellido1" name="apellido1" value="" />
-          <label for="apellido1">Primer apellido</label>
         </span>
 
                             <span class="completo">
+                                <label for="apellido2">Segundo apellido</label>
           <input id="apellido2" name="apellido2" value="" />
-          <label for="apellido2">Segundo apellido</label>
         </span>
                         </div>
 
@@ -132,49 +154,32 @@
 
                         <div>
                             <span class="completo">
+                                <label for="direccion">Calle, número, piso, puerta</label>
           <input id="direccion" name="direccion" value="" />
-          <label for="direccion">Calle, número, piso, puerta</label>
         </span>
 
                             <span class="tercio">
+                                <label for="codigopostal">Código postal</label>
           <input id="codigopostal" name="codigopostal" value="" />
-          <label for="codigopostal">Código postal</label>
         </span>
                             <span class="dostercios">
+                                <label for="municipio">Municipio</label>
           <input id="municipio" name="municipio" value="" />
-          <label for="municipio">Municipio</label>
-        </span>
-
-                            <span class="tercio">
-          <select id="provincia" name="provincia">
-            <option value=""></option>
-            <option value="provincia1">Provincia 1</option>
-            <option value="provincia2">Provincia 2</option>
-            <option value="provincia3">Provincia 3</option>
-          </select>
-          <label for="provincia">Provincia</label>
         </span>
 
                             <span class="dostercios">
-          <select id="pais" name="pais">
-            <option value=""></option>
-            <option value="pais1">País 1</option>
-            <option value="pais2">País 2</option>
-            <option value="pais3">País 3</option>
-          </select>
-          <label for="pais">País</label>
         </span>
                         </div>
 
                     </li>
-
+                    <br>
                     <li class="izquierda">
                         <label class="titulo" for="email">Email</label>
+                        <input id="email" name="email" value="" />
 
                         <div>
                             <span class="completo">
-          <input id="email" name="email" value="" />
-        </span>
+                            </span>
                         </div>
 
                     </li>
@@ -184,13 +189,13 @@
 
                         <div>
                             <span class="mitad">
+                                <label for="telefonofijo">Fijo</label>
           <input id="telefonofijo" name="telefonofijo" value="" />
-          <label for="telefonofijo">Fijo</label>
         </span>
 
                             <span class="mitad">
+                                <label for="telefonomovil">Móvil</label>
           <input id="telefonomovil" name="telefonomovil" value="" />
-          <label for="telefonomovil">Móvil</label>
         </span>
                         </div>
 
