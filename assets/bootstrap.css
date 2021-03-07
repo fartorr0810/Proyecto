@@ -302,12 +302,8 @@ figure {
     margin: 0 0 1rem
 }
 
-img,
-svg {
-    vertical-align: middle;
+img {
     max-width: 100%;
-    width: auto;
-    height: auto;
 }
 
 table {
